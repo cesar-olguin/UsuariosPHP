@@ -1,0 +1,60 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    <meta charset="utf-8">
+        <title>Mini-Sistema de Inventario</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="media-queries.css" rel="stylesheet" type="text/css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+        <link rel="stylesheet" href="css/themes/default/hermes-app.css">
+    <link rel="stylesheet" href="css/themes/default/jquery.mobile.structure-1.1.1.css">
+    <link rel="stylesheet" href="css/themes/default/jquery.mobile.structure-1.1.1.min.css">
+     <script src="js/jquery.js"></script>
+     <script src="js/jquery.mobile-1.1.1.js"></script>
+
+    </head>
+    <body>
+
+    <div id="pagewrap">
+       <header id="header"><h1>Mini-Sistema de Inventario</h1>
+        <nav>
+            <ul id="main-nav" class="clearfix">
+                <li><a href="index.html">Inicio</a></li>
+
+            </ul>
+        </nav>
+        </header>
+
+        <section>
+         <div id="content">
+           <article class="post clearfix">
+
+            <font face="Georgia">
+            <p>Mini-Sistema de inventario para Direccion de Sistemas.
+                        <h4 class="widgettitulo"> Iniciar Sesion</h4></p>
+                <form action="user.php" method="post" onsubmit="return validarForm(this);">
+        Ingresa tu Usuario:
+        <input name="usuario" type="text" class="tb5" placeholder="Usuario" required autofocus><br><br>
+    Ingresa tu Contraseña:
+        <input name="contrasena" type="password" class="tb5" placeholder="Contraseña" required><br><br>
+        <button class="button"  type="submit">Iniciar Sesion</button>
+        <br><br>
+<a href="registro.html">¿Nuevo Usuario?</a>
+      </form>
+      </article>
+    </div>
+
+ </section>
+
+    <footer id="footer">
+            <small>
+            César Armando Olguín Morales
+            </small>
+        </footer>
+
+    </div>
+  </body>
+</html>
